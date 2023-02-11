@@ -18,6 +18,13 @@
     width: 40px;
     height: 40px;
 }
+.nav-pills {
+    width: 100%;
+}
+.wd-border-main {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
 .wd-post-image {
     border-radius: 25%;
     width: 75px;
