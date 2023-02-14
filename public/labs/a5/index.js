@@ -215,8 +215,12 @@ const init = () => {
     const showMe = $("#show-me");
     showMe.show();
 
+    //2.16 Creating new elements
+    console.log("2.16 Creating new elements");
     const newLineItem = $("<li>Line item 1</li>");
     const anotherLineItem = $("<li>Line item 2</li>");
+    console.log(newLineItem);
+    console.log(anotherLineItem);
 
     const ul = $("#append-new-elements");
     ul.append(newLineItem);
