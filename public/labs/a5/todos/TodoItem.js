@@ -8,3 +8,4 @@ const TodoItem = (todo) => {
         </li>`
     );
 }
+export default TodoItem;
