@@ -5,9 +5,9 @@ const NavigationSidebar = () => {
        <i class="fab fa-twitter"></i></a>
        <!-- continue rest of list, e.g.,
             Home, Explore, Notifications,  Messages, etc. -->
-     <a href="#" class="list-group-item list-group-item-action">
+     <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action" id="btnHome">
                 <i class="fa fa-home"></i><span class="d-none d-xl-inline"> Home</span></a>
-     <a href="#" class="list-group-item list-group-item-action active">
+     <a href="../ExploreScreen/index.html" class="list-group-item list-group-item-action" id="btnExplore">
         <i class="fa fa-hashtag"></i> <span class="d-none d-xl-inline"> Explore</span></a>
      <a href="#" class="list-group-item list-group-item-action">
         <i class="fa fa-bell"></i><span class="d-none d-xl-inline"> Notifications</span></a>

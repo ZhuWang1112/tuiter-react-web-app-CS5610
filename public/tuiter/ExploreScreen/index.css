@@ -26,14 +26,24 @@
     color: #2d2d2d;
     /*color: white;*/
 }
-.wd-float-left {
-    float: left;
-    width: 75%;
-}
-.wd-float-right {
-    float: right;
-}
+/*.wd-float-left {*/
+/*    float: left;*/
+/*    width: 75%;*/
+/*}*/
+/*.wd-float-right {*/
+/*    float: right;*/
+/*}*/
 .wd-color-gray {
     font-size: 15px;
     color: rgb(110,118,125);
+}
+.wd-border-post {
+    border: 1px solid lightgray;
+}
+.wd-cut {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.wd-border-bold {
+    border: 1px solid rgb(50,50,50);
 }

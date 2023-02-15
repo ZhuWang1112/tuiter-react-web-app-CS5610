@@ -1,9 +1,10 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
-import WhoToFollowList from "../WhoToFollowList/index.js";
-import ExploreComponent from "./ExploreComponent.js";
+import PostList from "../PostList/index.js";
+import PostSummaryList from "../PostSummaryList/index.js";
 
-function exploreComponent() {
-    $('#wd-explore').append(`
+
+function HomeScreenComponent() {
+    $('#wd-home').append(`
 <!--       <h2>Explore</h2>-->
    <div class="row mt-2">
    
@@ -14,16 +15,16 @@ function exploreComponent() {
        
        <div class="col-10 col-lg-7 col-xl-6">
     <!--    <h3>ExploreComponent</h3>-->
-        ${ExploreComponent()}
+        ${PostList()}
        </div>
        
        <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
     <!--    <h3>WhoToFollowList </h3>-->
-        ${WhoToFollowList()}
+        ${PostSummaryList()}
        </div>
   </div>
    `);
-    $('#btnExplore').addClass('active');
+    $('#btnHome').addClass('active');
 }
 
-$(exploreComponent);
+$(HomeScreenComponent);
