@@ -11,8 +11,8 @@ function App() {
             <div className="container">
                 <Routes>
                     <Route index element={<Labs></Labs>}></Route>
-                    <Route path={"/hello"} element={<HelloWorld></HelloWorld>}></Route>
-                    <Route path="/tuiter" element={<Tuiter></Tuiter>}></Route>
+                    <Route path={"/hello"} element={<HelloWorld/>}></Route>
+                    <Route path="/tuiter/*" element={<Tuiter/>}></Route>
                 </Routes>
             </div>
         </BrowserRouter>
