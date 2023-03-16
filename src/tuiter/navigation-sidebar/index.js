@@ -24,7 +24,7 @@ const NavigationSidebar = () => {
                 <FontAwesomeIcon icon={faBookmark}/><span className="d-none d-xl-inline"> Bookmarks</span></Link>
             <Link className={`list-group-item ${active === 'lists' ? 'active' : ''} list-group-item-action`}>
                 <FontAwesomeIcon icon={faList}/><span className="d-none d-xl-inline"> Lists</span></Link>
-            <Link className={`list-group-item ${active === 'profile' ? 'active' : ''} list-group-item-action`}>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile' ? 'active' : ''} list-group-item-action`}>
                 <FontAwesomeIcon icon={faUser}/><span className="d-none d-xl-inline"> Profile</span></Link>
             <Link className={`list-group-item ${active === 'more' ? 'active' : ''} list-group-item-action`}>
                 <FontAwesomeIcon icon={faCircle}/><span className="d-none d-xl-inline"> More</span></Link>

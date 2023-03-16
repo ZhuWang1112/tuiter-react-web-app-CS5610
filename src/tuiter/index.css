@@ -12,6 +12,13 @@
     width: 40px;
     height: 40px;
 }
+.wd-profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+}
 .wd-post-image {
     border-radius: 25%;
     width: 75px;
@@ -26,7 +33,9 @@
     color: #2d2d2d;
     /*color: white;*/
 }
-
+.wd-blank {
+    height: 100px;
+}
 .wd-color-gray {
     font-size: 15px;
     color: rgb(110,118,125);
@@ -58,7 +67,10 @@
     bottom: 15px;
     left: 25px;
 }
-
+.wd-nudge-down {
+    bottom: -75px;
+    left: 25px;
+}
 .wd-bottom-2 {
     bottom: 2px;
 }
