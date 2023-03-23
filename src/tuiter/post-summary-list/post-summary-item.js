@@ -15,7 +15,7 @@ const PostSummaryItem = ({post}) => {
                     <b>{post.title}</b>
                 </div>
             </div>
-            <div>
+            <div style={{"display": "flex","align-items": "center"}}>
                 <img src={`/images/${post.image}`} className="wd-post-image"/>
             </div>
         </li>
