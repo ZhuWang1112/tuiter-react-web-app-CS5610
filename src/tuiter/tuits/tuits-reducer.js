@@ -1,5 +1,6 @@
 import {createSlice} from "@reduxjs/toolkit";
 import tuits from './tuits.json';
+import {useSelector} from "react-redux";
 
 const currentUser = {
     "userName": "NASA",
@@ -33,8 +34,8 @@ const tuitsSlice = createSlice({
         },
         createTuit: (state, action) => {
             state.unshift({
-                ...action.payload,
                 ...templateTuit,
+                ...action.payload,
                 _id: (new Date()).getTime(),
             })
         },
