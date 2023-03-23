@@ -8,7 +8,7 @@ const ProfileComponent = () => {
         <>
             <div className="row">
                 <div className="col-1 d-flex align-items-center">
-                    <i className="bi bi-arrow-left"></i>
+                    <Link to="/tuiter/explore" className="bi bi-arrow-left text-dark"></Link>
                 </div>
                 <div className="col-11">
                     <div>
