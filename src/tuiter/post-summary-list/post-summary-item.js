@@ -3,7 +3,7 @@ import "../index.css"
 
 const PostSummaryItem = ({post}) => {
     return (
-        <li className="list-group-item" style={{"display": "flex", "align-items": "center"}}>
+        <li className="list-group-item" style={{"display": "flex"}}>
             <div style={{"flex": "1"}}>
                 <div className="wd-color-gray">{post.topic}</div>
                 <div>

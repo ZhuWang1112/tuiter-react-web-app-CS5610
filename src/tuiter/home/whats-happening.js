@@ -12,7 +12,15 @@ const WhatsHappening = () => {
             tuit: whatsHappening,
             userName: profile.firstName + ' ' + profile.lastName,
             handle: profile.handle,
-            image: profile.profilePicture
+            image: profile.profilePicture,
+            "topic": "Life",
+            "time": "now",
+            "liked": false,
+            "disliked": false,
+            "replies": 0,
+            "retuits": 0,
+            "likes": 0,
+            "dislikes": 0,
         }
         dispatch(createTuitThunk(newTuit));
     }
