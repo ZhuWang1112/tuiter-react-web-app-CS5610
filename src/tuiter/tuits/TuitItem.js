@@ -6,6 +6,7 @@ import { faEllipsis, faCircleCheck, faLink, faComment, faRetweet, faHeart, faArr
 import TuitStats from "./TuitStats";
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 
 
@@ -13,7 +14,7 @@ const TuitItem = ({tuit}) => {
 
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     const review = tuit.tuit.replace(/@(\w+)/g, '<a href="/users/$1" style="text-decoration: none">@$1</a>');
